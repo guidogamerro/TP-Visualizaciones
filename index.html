@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Datos Personales: Running 2025-2026</title>
+    <style>
+        :root {
+            --primary-color: #0071e3;
+            --bg-color: #f5f5f7;
+            --card-bg: #ffffff;
+            --text-color: #1d1d1f;
+            --secondary-text: #86868b;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid #d2d2d7;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: var(--text-color);
+        }
+
+        header p {
+            color: var(--secondary-text);
+            font-size: 1.1rem;
+            margin-top: 8px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+
+        .viz-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .viz-card h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .viz-card p {
+            color: var(--secondary-text);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .embed-container {
+            width: 100%;
+            min-height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fafafa;
+            border-radius: 8px;
+            border: 1px dashed #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--secondary-text);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mis 202 Carreras: Un Análisis de Datos Personales</h1>
+        <p>Maestría en Análisis de Datos (ITBA) | Asignatura: Visualizaciones</p>
+    </header>
+
+    <div class="container">
+        <!-- Introducción al Proyecto -->
+        <div class="intro-card">
+            <h3>Motivación y Origen de los Datos</h3>
+            <p>
+                Este proyecto explora mis hábitos de entrenamiento de <i>running</i> desde principios de 2025 hasta la actualidad. 
+                Los datos fueron recolectados a través de mi Apple Watch y procesados mediante scripts de Python para consolidar 
+                un dataset de <strong>202 entrenamientos</strong> con variables de velocidad, cadencia, potencia y frecuencia cardíaca.
+            </p>
+        </div>
+
+        <!-- Visualización 1: Prototipo para la Entrega de Hoy -->
+        <div class="viz-card">
+            <h2>1. ¿Existe una relación directa entre mi frecuencia cardíaca y el ritmo de carrera?</h2>
+            <p>
+                Este gráfico explora la correlación entre las pulsaciones promedio (bpm) y el ritmo en minutos por kilómetro.
+            </p>
+            <div class="embed-container">
+                <!-- AQUÍ PEGAS EL CÓDIGO EMBED (IFRAME O SCRIPT) DE TU PRIMER GRÁFICO (Datawrapper / Flourish) -->
+                <p><i>[Pegar aquí el código embed generado por Datawrapper, Flourish o Tableau]</i></p>
+            </div>
+        </div>
+
+        <!-- Próximos gráficos para la entrega final -->
+        <div class="viz-card">
+            <h2>2. ¿Cómo evoluciona mi volumen de entrenamiento mensual? (Próximamente)</h2>
+            <p>Visualización interactiva desarrollada en Flourish.</p>
+        </div>
+
+        <div class="viz-card">
+            <h2>3. ¿En qué días y horarios concentro mis salidas a correr? (Próximamente)</h2>
+            <p>Visualización estática generada en RAWGraphs y pulida en Inkscape.</p>
+        </div>
+
+        <div class="viz-card">
+            <h2>4. Dashboard Integral de Rendimiento (Próximamente)</h2>
+            <p>Dashboard interactivo generado en Tableau Public / Power BI.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Trabajo Práctico Individual | Visualización de Datos Personales (ECD.2026)</p>
+    </footer>
+
+</body>
+</html>
